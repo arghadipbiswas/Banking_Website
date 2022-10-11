@@ -100,8 +100,7 @@ background: #3bb986;
   </div>
 </header><!-- End Header -->
 <body>
-
-  </style>
+<link rel="stylesheet" href="stylee.css">
  <!-- video -->
  <video autoplay muted loop id="myVideo">
   <source src="video5.mp4" type="video/mp4">
@@ -111,7 +110,23 @@ background: #3bb986;
 <a href="deposite1.html"><img class="kol1" data-aos="zoom-in" data-aos-delay="100" style="width: 150px;" src="sbi.jpg" alt=""><br>
     <h1 id="pp" data-aos="zoom-in" data-aos-delay="100" style="color: rgb(247, 247, 247);">Verification</h1></a> <hr style="color: white;">
   <br>
-  
+
+
+  <div class="center">
+    <div id="captchaBackground">
+        <canvas id="captcha" style="color: white;">captcha text</canvas>
+        <input id="textBox" type="text" name="text">
+        <div id="buttons">
+            <input id="submitButton" type="submit">
+            <button id="refreshButton" type="submit">Refresh</button>
+        </div>
+        <span id="output"></span>
+    </div>
+</div>
+<br><br>
+<script src="script.js"></script>
+
+
    
    
 
