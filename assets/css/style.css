@@ -1895,3 +1895,15 @@ margin-top: 50px;
     #imj{
       margin-bottom: 20px;
     }
+
+    .kol{
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 20px;
+    }
+    #pp{
+      text-align: center;
+      color: white;
+    }
