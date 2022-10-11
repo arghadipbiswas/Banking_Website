@@ -1886,3 +1886,12 @@ margin-top: 50px;
         transform: translateX(-50%) translateY(-50%);
         z-index: -10;
     }
+
+    #button1{
+      width: 95px;
+      margin-left: 30px;
+      /* text-align: center; */
+    }
+    #imj{
+      margin-bottom: 20px;
+    }
