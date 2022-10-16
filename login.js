@@ -1,16 +1,8 @@
-(function($) {
-
-	"use strict";
-
-	$(".toggle-password").click(function() {
-
-  $(this).toggleClass("fa-eye fa-eye-slash");
-  var input = $($(this).attr("toggle"));
-  if (input.attr("type") == "password") {
-    input.attr("type", "text");
-  } else {
-    input.attr("type", "password");
+function validation(){
+  var user=document.getElementById('user').value;
+  if(user == "")
+  {
+    document.getElementById('username').innerHTML="please fill the username";
+    return false;
   }
-});
-
-})(jQuery);
+}
